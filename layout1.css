@@ -1,0 +1,13 @@
+body {
+    display: flex;
+    flex-flow: column wrap;
+}
+
+footer {
+    order: 4;
+}
+
+header {
+    order: 0;
+}
+

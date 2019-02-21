@@ -1,0 +1,31 @@
+/* Navigation on the left-hand side: */
+nav {
+    flex-basis: 25%
+}
+
+main {
+    /* flex: 0 0 100%; */
+    flex-basis: 75%;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    /* flex-direction: column; */
+    flex-flow: row wrap;
+    align-items: stretch;
+}
+
+footer {
+    order: 4;
+    flex: 100%
+}
+
+header {
+    order: 0;
+    flex: 100%;
+    /* margin: auto; */
+}
+
+
+

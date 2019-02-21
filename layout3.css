@@ -1,0 +1,35 @@
+/* Articles displayed side by side in two colums with navigation at the top */
+
+nav {
+    flex-basis: 100%
+}
+
+.reading {
+    /* flex: 0 0 100%; */
+    display: flex;
+    flex-flow: row wrap;
+    align-items: stretch;
+    margin: 0;
+}
+
+article {
+    flex-basis: 50%;
+}
+
+body {
+    display: flex;
+    /* flex-direction: column; */
+    flex-flow: row wrap;
+    align-items: stretch;
+}
+
+footer {
+    order: 4;
+    flex: 100%
+}
+
+header {
+    order: 0;
+    flex: 100%;
+    /* margin: auto; */
+}
